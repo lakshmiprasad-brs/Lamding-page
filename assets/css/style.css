@@ -18,19 +18,12 @@ body {
     padding: 0;
 }
 
-h1 {
-    color: var(--primary-color);
-}
-
-p {
-    text-align: center;
-}
 
 .btn, .btn:hover {
-    color: #fff;
+  
     background: var(--primary-color);
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 5px;p
     font-size: 12px;
     padding: 5px 12px;
 }
@@ -90,9 +83,7 @@ button:focus {
 
 /* NAVBAR STYLING STARTS */
 
-.nav-links a {
-    color: #fff;
-}
+
 
 /* Header Styles
   -------------------------------------------------- */
@@ -101,13 +92,10 @@ header .bg-gradient {
     background: rgb(216, 216, 216);
 }
 
-body {
-    background: url(./BG.png);
-    background-size: cover;
-}
+
 
 header .navbar {
-    padding: 20px 0 0;
+    padding: 50px 0 0;
 }
 
 header .navbar-brand {
@@ -118,30 +106,33 @@ header .navbar-brand {
     background-color: var(--primary-color);
 }
 
-
-
-img {
-    max-width: 100%;
+.landing{
+    text-align: center;
+    background-color: rgb(168, 205, 243);
+    padding-top: 2px;
 }
 
-header h3 {
-    font: normal normal 600 18px/27px Oswald;
-    color: #fff;
-}
+
+
 
 header h4 {
     font: normal normal 600 20px/28px Oswald;
     letter-spacing: 0.36px;
     color: #191919;
     text-transform: uppercase;
+    padding-top: 2px;
+    text-align: center;
+    
+}
+.git{
+    text-align: center;
     
 }
 
 
-
 .ReactTitle {
     
-    height: 33px;
+    height: 20px;
     font: normal normal 800 20px/27px Oswald;
     letter-spacing: 0.38px;
     text-transform: uppercase;
